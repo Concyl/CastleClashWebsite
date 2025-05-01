@@ -12,6 +12,12 @@ This example contains everything needed to get a Next.js development and product
 
 ## How to use
 
+npm i -D drizzle-kit
+npm i pg
+npm i drizzle-orm
+npm i @t3-oss/env-nextjs
+npm i zod
+
 Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
 
 ```bash
