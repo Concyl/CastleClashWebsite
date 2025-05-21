@@ -19,5 +19,7 @@ export const UserTable = pgTable("users", {
 })
 
 export const UserRelationships = relations(UserTable, ({many}) => ({
-    gearAccess: many(GearTable),
+    gear: many(GearTable,{
+        relationName: "user_gear_relation",
+    }),
 }))

@@ -33,9 +33,11 @@ yarn-error.log*
 # local env files
 .env*.local
 .env
+/migrations/*
 # vercel
 .vercel
 
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+/nextjs-dashboard/app/drizzle/migrations

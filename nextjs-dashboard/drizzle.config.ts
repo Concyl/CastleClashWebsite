@@ -11,7 +11,8 @@ export default defineConfig ({
         password: env.DB_PASSWORD,
         user: env.DB_USER,
         database: env.DB_NAME,
-        host: env.DB_HOST,
+        host: "db",
+        port: 5432,
         ssl: false
     }
 })

@@ -20,21 +20,13 @@ RUN apk add --no-cache \
     dos2unix \
     postgresql-client # Required for pg_isready
 
-COPY app ./app
-COPY public ./public
-COPY data ./data
-COPY next.config.ts .
-COPY tsconfig.json .
-COPY tailwind.config.ts .
-COPY postcss.config.js .
-COPY drizzle.config.ts .
-#COPY migrate.sh .
-# Next.js collects completely anonymous telemetry data about general usage. Learn more here: https://nextjs.org/telemetry
-# Uncomment the following line to disable telemetry at run time
-# ENV NEXT_TELEMETRY_DISABLED 1
-
 # Note: Don't expose ports here, Compose will handle that for us
-
+ENV WATCHPACK_POLLING=true
+ENV CHOKIDAR_USEPOLLING=true
+ENV FAST_REFRESH=true
+ENV NEXT_WEBPACK_POLLING=1000
+# Disable Next.js telemetry
+ENV NEXT_TELEMETRY_DISABLED=1
 # Start Next.js in development mode based on the preferred package manager
 CMD \
   if [ -f yarn.lock ]; then yarn dev; \
@@ -42,8 +34,3 @@ CMD \
   elif [ -f pnpm-lock.yaml ]; then pnpm dev; \
   else npm run dev; \
   fi
-
-#RUN chmod +x migrate.sh && \
-#   dos2unix migrate.sh
-#
-#CMD ["migrate.sh", "pnpm", "dev"]
