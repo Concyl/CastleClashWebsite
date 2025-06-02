@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Config TableName="Pet_Contract" Name="宠物契约表" >
+   <List ID="1" Level="0" Roquet="1" Fight="107"/>
+   <List ID="2" Level="1" Roquet="2" Item="5,3533,1;5,138,5" Fight="214"/>
+   <List ID="3" Level="2" Roquet="3" Item="5,3533,1;5,138,5" Fight="321"/>
+   <List ID="4" Level="3" Roquet="4" Item="5,3533,1;5,138,5" Fight="428"/>
+   <List ID="5" Level="4" Roquet="5" Item="5,3533,1;5,138,5" Fight="535"/>
+   <List ID="6" Level="5" Roquet="6" Item="5,3533,1;5,138,5" Fight="642"/>
+   <List ID="7" Level="6" Roquet="7" Item="5,3533,1;5,138,10" Fight="749"/>
+   <List ID="8" Level="7" Roquet="8" Item="5,3533,1;5,138,10" Fight="856"/>
+   <List ID="9" Level="8" Roquet="9" Item="5,3533,1;5,138,10" Fight="963"/>
+   <List ID="10" Level="9" Break="1" Roquet="10" Item="5,3533,1;5,138,10" Fight="1070"/>
+   <List ID="11" Level="10" Roquet="11" Item="5,3533,10;5,3534,5;5,138,10" Fight="1177"/>
+   <List ID="12" Level="11" Roquet="12" Item="5,3533,3;5,138,15" Fight="1284"/>
+   <List ID="13" Level="12" Roquet="13" Item="5,3533,3;5,138,15" Fight="1391"/>
+   <List ID="14" Level="13" Roquet="14" Item="5,3533,3;5,138,15" Fight="1498"/>
+   <List ID="15" Level="14" Roquet="15" Item="5,3533,3;5,138,15" Fight="1605"/>
+   <List ID="16" Level="15" Roquet="16" Item="5,3533,3;5,138,15" Fight="1712"/>
+   <List ID="17" Level="16" Roquet="17" Item="5,3533,3;5,138,20" Fight="1819"/>
+   <List ID="18" Level="17" Roquet="18" Item="5,3533,3;5,138,20" Fight="1926"/>
+   <List ID="19" Level="18" Roquet="19" Item="5,3533,3;5,138,20" Fight="2033"/>
+   <List ID="20" Level="19" Break="2" Roquet="20" Item="5,3533,3;5,138,20" Fight="2140"/>
+   <List ID="21" Level="20" Roquet="20" Attack="10" Item="5,3533,30;5,3534,10;5,138,20" Fight="4280"/>
+   <List ID="22" Level="21" Roquet="22" Attack="10" Item="5,3533,5;5,138,25" Fight="4494"/>
+   <List ID="23" Level="22" Roquet="22" Attack="11" Item="5,3533,5;5,138,25" Fight="4708"/>
+   <List ID="24" Level="23" Roquet="24" Attack="11" Item="5,3533,5;5,138,25" Fight="4922"/>
+   <List ID="25" Level="24" Roquet="24" Attack="12" Item="5,3533,5;5,138,25" Fight="5136"/>
+   <List ID="26" Level="25" Roquet="26" Attack="12" Item="5,3533,5;5,138,25" Fight="5350"/>
+   <List ID="27" Level="26" Roquet="26" Attack="13" Item="5,3533,5;5,138,30" Fight="5564"/>
+   <List ID="28" Level="27" Roquet="28" Attack="13" Item="5,3533,5;5,138,30" Fight="5778"/>
+   <List ID="29" Level="28" Roquet="28" Attack="14" Item="5,3533,5;5,138,30" Fight="5992"/>
+   <List ID="30" Level="29" Break="3" Roquet="30" Attack="14" Item="5,3533,5;5,138,30" Fight="6206"/>
+   <List ID="31" Level="30" Roquet="30" Attack="15" Item="5,3533,50;5,3534,20;5,138,30" Fight="6420"/>
+   <List ID="32" Level="31" Roquet="32" Attack="15" Item="5,3533,10;5,138,40" Fight="6634"/>
+   <List ID="33" Level="32" Roquet="32" Attack="16" Item="5,3533,10;5,138,40" Fight="6848"/>
+   <List ID="34" Level="33" Roquet="34" Attack="16" Item="5,3533,10;5,138,40" Fight="7062"/>
+   <List ID="35" Level="34" Roquet="34" Attack="17" Item="5,3533,10;5,138,40" Fight="7276"/>
+   <List ID="36" Level="35" Roquet="36" Attack="17" Item="5,3533,10;5,138,40" Fight="7490"/>
+   <List ID="37" Level="36" Roquet="36" Attack="18" Item="5,3533,10;5,138,50" Fight="7704"/>
+   <List ID="38" Level="37" Roquet="38" Attack="18" Item="5,3533,10;5,138,50" Fight="7918"/>
+   <List ID="39" Level="38" Roquet="38" Attack="19" Item="5,3533,10;5,138,50" Fight="8132"/>
+   <List ID="40" Level="39" Break="3" Roquet="40" Attack="19" Item="5,3533,10;5,138,50" Fight="8346"/>
+   <List ID="41" Level="40" Roquet="40" Attack="19" Crit="10" Item="5,3533,100;5,3534,40;5,138,50" Fight="10486"/>
+   <List ID="42" Level="41" Roquet="42" Attack="19" Crit="10" Item="5,3533,15;5,138,60" Fight="10700"/>
+   <List ID="43" Level="42" Roquet="42" Attack="20" Crit="10" Item="5,3533,15;5,138,60" Fight="10914"/>
+   <List ID="44" Level="43" Roquet="44" Attack="20" Crit="10" Item="5,3533,15;5,138,60" Fight="11128"/>
+   <List ID="45" Level="44" Roquet="44" Attack="20" Crit="15" Item="5,3533,15;5,138,60" Fight="11342"/>
+   <List ID="46" Level="45" Roquet="46" Attack="20" Crit="15" Item="5,3533,15;5,138,60" Fight="11556"/>
+   <List ID="47" Level="46" Roquet="46" Attack="21" Crit="15" Item="5,3533,15;5,138,70" Fight="11770"/>
+   <List ID="48" Level="47" Roquet="48" Attack="21" Crit="15" Item="5,3533,15;5,138,70" Fight="11984"/>
+   <List ID="49" Level="48" Roquet="48" Attack="21" Crit="20" Item="5,3533,15;5,138,70" Fight="13054"/>
+   <List ID="50" Level="49" Break="4" Roquet="50" Attack="21" Crit="20" Item="5,3533,15;5,138,70" Fight="13268"/>
+   <List ID="51" Level="50" Roquet="50" Attack="22" Crit="20" Item="5,3533,150;5,3534,60;5,138,70" Fight="13482"/>
+   <List ID="52" Level="51" Roquet="52" Attack="22" Crit="20" Item="5,3533,20;5,138,80" Fight="13696"/>
+   <List ID="53" Level="52" Roquet="52" Attack="22" Crit="25" Item="5,3533,20;5,138,80" Fight="14766"/>
+   <List ID="54" Level="53" Roquet="54" Attack="22" Crit="25" Item="5,3533,20;5,138,80" Fight="14980"/>
+   <List ID="55" Level="54" Roquet="54" Attack="23" Crit="25" Item="5,3533,20;5,138,80" Fight="15194"/>
+   <List ID="56" Level="55" Roquet="56" Attack="23" Crit="25" Item="5,3533,20;5,138,80" Fight="15408"/>
+   <List ID="57" Level="56" Roquet="56" Attack="23" Crit="30" Item="5,3533,20;5,138,90" Fight="16478"/>
+   <List ID="58" Level="57" Roquet="58" Attack="23" Crit="30" Item="5,3533,20;5,138,90" Fight="16692"/>
+   <List ID="59" Level="58" Roquet="58" Attack="24" Crit="30" Item="5,3533,20;5,138,90" Fight="16906"/>
+   <List ID="60" Level="59" Break="5" Roquet="60" Attack="24" Crit="30" Item="5,3533,20;5,138,90" Fight="17120"/>
+   <List ID="61" Level="60" Roquet="60" Attack="24" Crit="35" Hit_DMG="30" Item="5,3533,200;5,3534,100;5,138,90" Fight="24610"/>
+   <List ID="62" Level="61" Roquet="62" Attack="24" Crit="35" Hit_DMG="30" Item="5,3533,30;5,138,100" Fight="24824"/>
+   <List ID="63" Level="62" Roquet="62" Attack="25" Crit="35" Hit_DMG="30" Item="5,3533,30;5,138,100" Fight="25038"/>
+   <List ID="64" Level="63" Roquet="64" Attack="25" Crit="35" Hit_DMG="30" Item="5,3533,30;5,138,100" Fight="25252"/>
+   <List ID="65" Level="64" Roquet="64" Attack="25" Crit="35" Hit_DMG="35" Item="5,3533,30;5,138,100" Fight="26322"/>
+   <List ID="66" Level="65" Roquet="66" Attack="25" Crit="35" Hit_DMG="35" Item="5,3533,30;5,138,100" Fight="26536"/>
+   <List ID="67" Level="66" Roquet="66" Attack="26" Crit="35" Hit_DMG="35" Item="5,3533,30;5,138,120" Fight="26750"/>
+   <List ID="68" Level="67" Roquet="68" Attack="26" Crit="35" Hit_DMG="35" Item="5,3533,30;5,138,120" Fight="26964"/>
+   <List ID="69" Level="68" Roquet="68" Attack="26" Crit="40" Hit_DMG="35" Item="5,3533,30;5,138,120" Fight="28034"/>
+   <List ID="70" Level="69" Break="6" Roquet="70" Attack="26" Crit="40" Hit_DMG="35" Item="5,3533,30;5,138,120" Fight="28248"/>
+   <List ID="71" Level="70" Roquet="70" Attack="27" Crit="40" Hit_DMG="35" Item="5,3533,300;5,3534,150;5,138,120" Fight="28462"/>
+   <List ID="72" Level="71" Roquet="72" Attack="27" Crit="40" Hit_DMG="35" Item="5,3533,40;5,138,140" Fight="28676"/>
+   <List ID="73" Level="72" Roquet="72" Attack="27" Crit="40" Hit_DMG="40" Item="5,3533,40;5,138,140" Fight="29746"/>
+   <List ID="74" Level="73" Roquet="74" Attack="27" Crit="40" Hit_DMG="40" Item="5,3533,40;5,138,140" Fight="29960"/>
+   <List ID="75" Level="74" Roquet="74" Attack="28" Crit="40" Hit_DMG="40" Item="5,3533,40;5,138,140" Fight="30174"/>
+   <List ID="76" Level="75" Roquet="76" Attack="28" Crit="40" Hit_DMG="40" Item="5,3533,40;5,138,140" Fight="30388"/>
+   <List ID="77" Level="76" Roquet="76" Attack="28" Crit="45" Hit_DMG="40" Item="5,3533,40;5,138,160" Fight="31458"/>
+   <List ID="78" Level="77" Roquet="78" Attack="28" Crit="45" Hit_DMG="40" Item="5,3533,40;5,138,160" Fight="35952"/>
+   <List ID="79" Level="78" Roquet="78" Attack="29" Crit="45" Hit_DMG="40" Item="5,3533,40;5,138,160" Fight="36166"/>
+   <List ID="80" Level="79" Break="7" Roquet="80" Attack="29" Crit="45" Hit_DMG="40" Item="5,3533,40;5,138,160" Fight="36380"/>
+   <List ID="81" Level="80" Roquet="80" Attack="29" Crit="45" Hit_DMG="45" Item="5,3533,400;5,3534,200;5,138,160" Fight="37450"/>
+   <List ID="82" Level="81" Roquet="82" Attack="29" Crit="45" Hit_DMG="45" Item="5,3533,50;5,138,180" Fight="37664"/>
+   <List ID="83" Level="82" Roquet="82" Attack="30" Crit="45" Hit_DMG="45" Item="5,3533,50;5,138,180" Fight="37878"/>
+   <List ID="84" Level="83" Roquet="84" Attack="30" Crit="45" Hit_DMG="45" Item="5,3533,50;5,138,180" Fight="38092"/>
+   <List ID="85" Level="84" Roquet="84" Attack="30" Crit="50" Hit_DMG="45" Item="5,3533,50;5,138,180" Fight="39162"/>
+   <List ID="86" Level="85" Roquet="86" Attack="30" Crit="50" Hit_DMG="45" Item="5,3533,50;5,138,180" Fight="39376"/>
+   <List ID="87" Level="86" Roquet="86" Attack="31" Crit="50" Hit_DMG="45" Item="5,3533,50;5,138,200" Fight="39590"/>
+   <List ID="88" Level="87" Roquet="88" Attack="31" Crit="50" Hit_DMG="45" Item="5,3533,50;5,138,200" Fight="39804"/>
+   <List ID="89" Level="88" Roquet="88" Attack="31" Crit="50" Hit_DMG="50" Item="5,3533,50;5,138,200" Fight="40874"/>
+   <List ID="90" Level="89" Break="8" Roquet="90" Attack="31" Crit="50" Hit_DMG="50" Item="5,3533,50;5,138,200" Fight="41088"/>
+   <List ID="91" Level="90" Roquet="90" Attack="32" Crit="50" Hit_DMG="50" Item="5,3533,500;5,3534,300;5,138,200" Fight="41302"/>
+   <List ID="92" Level="91" Roquet="92" Attack="32" Crit="50" Hit_DMG="50" Item="5,3533,60;5,138,240" Fight="41516"/>
+   <List ID="93" Level="92" Roquet="92" Attack="32" Crit="55" Hit_DMG="50" Item="5,3533,60;5,138,240" Fight="42586"/>
+   <List ID="94" Level="93" Roquet="94" Attack="32" Crit="55" Hit_DMG="50" Item="5,3533,60;5,138,240" Fight="42800"/>
+   <List ID="95" Level="94" Roquet="94" Attack="33" Crit="55" Hit_DMG="50" Item="5,3533,60;5,138,240" Fight="43014"/>
+   <List ID="96" Level="95" Roquet="96" Attack="33" Crit="55" Hit_DMG="50" Item="5,3533,60;5,138,240" Fight="43228"/>
+   <List ID="97" Level="96" Roquet="96" Attack="33" Crit="55" Hit_DMG="55" Item="5,3533,60;5,138,280" Fight="44298"/>
+   <List ID="98" Level="97" Roquet="98" Attack="33" Crit="55" Hit_DMG="55" Item="5,3533,60;5,138,280" Fight="44512"/>
+   <List ID="99" Level="98" Roquet="98" Attack="34" Crit="55" Hit_DMG="55" Item="5,3533,60;5,138,280" Fight="44726"/>
+   <List ID="100" Level="99" Break="9" Roquet="100" Attack="34" Crit="55" Hit_DMG="55" Item="5,3533,60;5,138,280" Fight="44940"/>
+   <List ID="101" Level="100" Roquet="100" Attack="34" Crit="60" Hit_DMG="55" Item="5,3533,600;5,3534,400;5,138,280" Fight="46010"/>
+</Config>
+<!--
+表头: 
+Name : 
+===========================
+ID : ID
+Level : 
+显示等级
+Break : 突破次数
+Roquet : 
+升级加成的属性比例-命中（%）
+
+Attack : 升级加成的属性比例-攻击（%）
+
+Crit : 升级加成的属性比例-暴击（%）
+
+Hit_DMG : 升级加成的属性比例-爆伤（%）
+
+Item : 消耗，最多三个道具
+Fight : 单次升级或突破增加的战力
+-->
