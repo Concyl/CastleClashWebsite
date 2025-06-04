@@ -8,7 +8,26 @@ services:
         ENV_VARIABLE: ${ENV_VARIABLE}
         NEXT_PUBLIC_ENV_VARIABLE: ${NEXT_PUBLIC_ENV_VARIABLE}
     restart: always
+    env_file:
+      - .env
+    volumes:
+      - ./nextjs-dashboard:/app
+      - ./nextjs-dashboard/app:/app/app
+      - nextjs_node_modules:/app/node_modules
+      - nextjs_next_cache:/app/.next
+      - ./nextjs-dashboard/next.config.ts:/app/next.config.ts:cached
+      - ./nextjs-dashboard/tsconfig.json:/app/tsconfig.json:cached
+      - ./nextjs-dashboard/tailwind.config.ts:/app/tailwind.config.ts:cached
+      - ./nextjs-dashboard/postcss.config.js:/app/postcss.config.js:cached
+      - ./nextjs-dashboard/drizzle.config.ts:/app/drizzle.config.ts:cached
     ports:
       - "3000:3000"
+    networks:
+      - my_network
+volumes:
+  nextjs_node_modules:
+  nextjs_next_cache:
 
-  
+networks:
+  my_network:
+    driver: bridge
