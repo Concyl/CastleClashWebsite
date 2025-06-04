@@ -10,32 +10,33 @@ import {
   SidebarMenuButton,
   SidebarMenuItem,
 } from "@/components/ui/sidebar"
+import Link from "next/link"
  
 // Menu items.
 const items = [
   {
-    title: "Home",
-    url: "#",
+    title: "Coming Soon",
+    url: "/",
     icon: Home,
   },
   {
-    title: "Inbox",
-    url: "#",
+    title: "Coming Sooon",
+    url: "/",
     icon: Inbox,
   },
   {
-    title: "ChartBar",
-    url: "#",
+    title: "Stat Tables",
+    url: "/statTables/PetContract",
     icon: ChartBar,
   },
   {
-    title: "Search",
-    url: "#",
+    title: "Coming Soooon",
+    url: "/",
     icon: Search,
   },
   {
-    title: "Settings",
-    url: "#",
+    title: "Coming Sooooon",
+    url: "/",
     icon: Settings,
   },
 ]
@@ -51,10 +52,10 @@ export function AppSidebar() {
               {items.map((item) => (
                 <SidebarMenuItem key={item.title}>
                   <SidebarMenuButton asChild>
-                    <a href={item.url}>
+                    <Link href={item.url}>
                       <item.icon />
                       <span>{item.title}</span>
-                    </a>
+                    </Link>
                   </SidebarMenuButton>
                 </SidebarMenuItem>
               ))}
