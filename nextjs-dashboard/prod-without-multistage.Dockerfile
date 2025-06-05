@@ -4,6 +4,11 @@ FROM node:18-alpine
 
 WORKDIR /app
 
+RUN apk add --no-cache \
+    bash \
+    dos2unix \
+    postgresql-client # Required for pg_isready
+
 # Install dependencies based on the preferred package manager
 COPY package.json yarn.lock* package-lock.json* pnpm-lock.yaml* .npmrc* ./
 # Omit --production flag for TypeScript devDependencies
@@ -16,20 +21,9 @@ RUN \
   fi
 
 # Install dependencies with explicit rebuild
-
-COPY app ./app
-COPY public ./public
-COPY next.config.ts .
-COPY tsconfig.json .
-COPY tailwind.config.ts .
-COPY postcss.config.js .
-
+COPY . .
 # Environment variables must be present at build time
 # https://github.com/vercel/next.js/discussions/14030
-ARG ENV_VARIABLE
-ENV ENV_VARIABLE=${ENV_VARIABLE}
-ARG NEXT_PUBLIC_ENV_VARIABLE
-ENV NEXT_PUBLIC_ENV_VARIABLE=${NEXT_PUBLIC_ENV_VARIABLE}
 
 # Next.js collects completely anonymous telemetry data about general usage. Learn more here: https://nextjs.org/telemetry
 # Uncomment the following line to disable telemetry at build time
